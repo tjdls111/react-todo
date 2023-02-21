@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './app';
+import App from './App.tsx';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div id='root'>
+     <App/>
+    </div>
+
   </React.StrictMode>,
   document.getElementById('root')
 );
